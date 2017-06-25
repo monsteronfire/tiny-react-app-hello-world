@@ -1,9 +1,10 @@
 const React = require('react');
+const Hello = require('./Hello');
 
 class App extends React.Component {
   render() {
     return (
-      <div>Hello World</div>
+      <Hello subject="World"/>
     )
   }
 }
