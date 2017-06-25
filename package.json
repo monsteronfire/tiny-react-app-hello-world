@@ -5,7 +5,10 @@
   "repository": "https://github.com/monsteronfire/tiny-react-app-hello-world",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open"
+  },
+  "babel": {
+    "presets": ["env", "react"]
   },
   "keywords": [],
   "author": "",
